@@ -1,0 +1,8 @@
+tupla=(4,"hola",5.6,[1,2,3])
+print(tupla[2:3])
+print(4 in tupla)
+print(tupla.index(4))
+print(tupla.count(4))
+print(len(tupla))
+lista = list(tupla)
+tupla = tuple(lista)
